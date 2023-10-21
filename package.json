@@ -2,9 +2,9 @@
   "name": "vef1-2023-v7-synilausn",
   "version": "1.0.0",
   "description": "## Markmið",
-  "main": "scripts.js",
+  "main": "scripts-plain.js",
   "scripts": {
-    "dev": "browser-sync start --server --files scripts.js index.html",
+    "dev": "browser-sync start --server --files scripts-plain.js index.html",
     "copy:html": "cpy ./*.html ./build/",
     "copy:js": "cpy ./*.js ./build/",
     "build": "concurrently npm:copy:*"
